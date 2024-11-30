@@ -1,0 +1,27 @@
+/* index.css */
+
+/* Fondo de la página */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilos del header */
+header {
+  background-color: #3333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Fondo para una sección específica */
+.hero {
+  background-image: url('./images/your_image.png');
+  height: 500px;
+  background-size: cover;
+}
+
+/* Otros estilos globales */
+h1, h2 {
+  color: #333;
+}
