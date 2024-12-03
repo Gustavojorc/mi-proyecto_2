@@ -16,7 +16,7 @@ header {
 
 /* Fondo para una sección específica */
 .hero {
-  background-image: url('./images/your_image.png');
+  background-image: url('./images/Fondo.jpg');
   height: 500px;
   background-size: cover;
 }

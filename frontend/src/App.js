@@ -4,41 +4,51 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>
-        <img src="/logo.png" alt="Logo" />
+      <header className="header">
+        <img src="/logo.png" alt="Logo" className="logo" />
+        <div className="header-text">
+          <h1>Refaccionaria Duran</h1>
+          <p>¡Tu mejor aliado en refacciones diésel!</p>
+        </div>
         <nav>
           <a href="/">Inicio</a>
-          <a href="/productos">Productos</a>
           <a href="/nosotros">Nosotros</a>
           <a href="/contacto">Contacto</a>
           <a href="/login">Iniciar sesión</a>
         </nav>
       </header>
 
-      <section className="hero">
-        <h1>Bienvenidos a Refaccionaria Duran</h1>
-        <p>Encuentra las mejores piezas para tus vehículos y maquinaria</p>
-        <a href="/productos" className="cta-button">Ver Productos</a>
-      </section>
-
-      <section className="product-grid">
-        <div className="product-card">
-          <img src="/product1.jpg" alt="Producto 1" />
-          <h3>Refacción 1</h3>
-          <p>$50.00</p>
-          <a href="/producto/1" className="btn">Ver detalles</a>
-        </div>
-        <div className="product-card">
-          <img src="/product2.jpg" alt="Producto 2" />
-          <h3>Refacción 2</h3>
-          <p>$80.00</p>
-          <a href="/producto/2" className="btn">Ver detalles</a>
-        </div>
-        <div className="product-card">
-          <img src="/product3.jpg" alt="Producto 3" />
-          <h3>Refacción 3</h3>
-          <p>$120.00</p>
-          <a href="/producto/3" className="btn">Ver detalles</a>
+      <section className="categories">
+        <h1>Encuentra tus Refacciones</h1>
+        <div className="category-menu">
+          <a href="/muelles" className="category-item">
+            <img src="/Muellas.png" alt="Muelles" />
+            <p>Muelles</p>
+          </a>
+          <a href="/perchas" className="category-item">
+            <img src="/perchas.webp" alt="Perchas" />
+            <p>Perchas</p>
+          </a>
+          <a href="/llantas" className="category-item">
+            <img src="/llantas.jpg" alt="Llantas" />
+            <p>Llantas</p>
+          </a>
+          <a href="/rines" className="category-item">
+            <img src="/rines.webp" alt="Rines" />
+            <p>Rines</p>
+          </a>
+          <a href="/cilindros" className="category-item">
+            <img src="/cilindros.png" alt="Cilindros" />
+            <p>Cilindros</p>
+          </a>
+          <a href="/monoblock" className="category-item">
+            <img src="/Monoblock.webp" alt="Monoblock" />
+            <p>Monoblock</p>
+          </a>
+          <a href="/faros" className="category-item">
+            <img src="/faros.webp" alt="Faros" />
+            <p>Faros</p>
+          </a>
         </div>
       </section>
 
@@ -50,5 +60,3 @@ function App() {
 }
 
 export default App;
-
-
